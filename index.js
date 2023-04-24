@@ -3,8 +3,8 @@ const path = require('path');
 
 const client = new CommandoClient({
     commandPrefix: '-' ,
-    owner: '305057993865822208', 
-    invite: 'https://discord.gg/c85tgVUv'
+    owner: '', 
+    invite: ''
 });
 
 client.registry
@@ -21,4 +21,4 @@ client.registry
 
 client.on('error', (error) => console.error(error));
 
-client.login('MTA5OTY3ODM1ODk4NTUxMTA1Mg.GdIwHk.0klZodo4hdzchaijcxwrX116JYnrihKsyVxuKg');
+client.login('');
